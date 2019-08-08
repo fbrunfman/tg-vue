@@ -1,10 +1,12 @@
+
 import Vue from 'vue'
 import Router from 'vue-router'
 import Home from './views/Home.vue'
+import FlujoRegistrado from '@/views/flujo-registrado/routes.js'
 
 Vue.use(Router)
 
-export default new Router({
+const rutas = new Router({
   mode: 'history',
   base: process.env.BASE_URL,
   routes: [
@@ -22,4 +24,7 @@ export default new Router({
       component: () => import(/* webpackChunkName: "about" */ './views/About.vue')
     }
   ]
+    .concat(FlujoRegistrado)
 })
+
+export default rutas

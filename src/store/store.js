@@ -14,7 +14,8 @@ export default new Vuex.Store({
     language: 'es',
     translate: trans,
     emailForm: {},
-    skipGame: false
+    skipGame: false,
+    mobile: false
   },
   mutations: {
     gameList (state, list) {
@@ -40,6 +41,9 @@ export default new Vuex.Store({
     },
     skipGame (state, skipGame) {
       state.skipGame = skipGame
+    },
+    mobile (state, mobile) {
+      state.mobile = mobile
     }
   },
   actions: {

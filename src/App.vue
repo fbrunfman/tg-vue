@@ -8,6 +8,7 @@
 @import './sass/app';
 html {
   background: $brand-five;
+  font-family: $font-primary;
 }
 
 body {

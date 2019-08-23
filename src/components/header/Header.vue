@@ -24,7 +24,7 @@ export default {
         } else {
             this.showSub = false
         }
-    }
+    },
 }
 </script>
 
@@ -37,7 +37,7 @@ export default {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 3em;
+    padding: 1em;
     background-repeat: no-repeat;
     background-size: cover;
     h3 {

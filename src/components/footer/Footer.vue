@@ -10,7 +10,7 @@
                 </select>
             </div>
         </div>
-        <div class="redes-sociales my-4">
+        <div class="redes-sociales my-2">
             <div class="icono-red mx-2">
                 <v-icon name="brands/facebook-f"/>
             </div>
@@ -31,8 +31,8 @@
             </div>
         </div>
         
-        <div class="copyright mb-5 d-flex flex-column align-items-center">
-            <div class="copy-titulo"><span>{{traducciones.copyright}}</span> Términos y condiciones</div>
+        <div class="copyright mb-1 d-flex flex-column align-items-center">
+            <div class="copy-titulo text-center"><span>{{traducciones.copyright}}</span> Términos y condiciones</div>
             <div class="copy-text text-secondary mt-3">{{traducciones.copyText}}</div>
         </div>
     </div>
@@ -71,10 +71,11 @@ export default {
 
 .contenedor-footer {
     background-color: $brand-six;
+    font-size: 13px;
+    margin-left: 75px;
 }
 
 .footer-index {
-    height: 85vh;
     overflow: hidden;
 }
 
@@ -142,7 +143,11 @@ select.form-control option  {
     font-size: 1.1em;
 }
 
-
+@media only screen and (max-width: 800px) {
+    .contenedor-footer {
+        margin-left: 0;
+    }
+}
 
 
 </style>

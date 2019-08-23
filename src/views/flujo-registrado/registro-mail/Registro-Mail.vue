@@ -54,7 +54,6 @@
                             <span class="sr-only">Loading...</span>
                         </div>
                     </div>
-                    
                 </div>
                 <div class="d-flex justify-content-center" @click="showReferred">
                     <div class="body-footer">

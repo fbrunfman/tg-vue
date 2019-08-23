@@ -86,9 +86,9 @@ export default {
             var gameList = this.$store.state.gameList;
             if(gameList.length > 0) {
                gameList.forEach( function (element) {  
-                  if(element.game_type == 'desktop'){
-                     this.desktop = true;
-                     return false;
+                  if (element.game_type == 'desktop'){
+                    this.desktop = true;
+                    return false;
                   }
                });
             }

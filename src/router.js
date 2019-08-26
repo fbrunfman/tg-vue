@@ -3,6 +3,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Home from './views/Home.vue'
 import FlujoRegistrado from '@/views/flujo-registrado/routes.js'
+import Cms from '@/views/cms/routes.js'
 
 Vue.use(Router)
 
@@ -25,6 +26,7 @@ const rutas = new Router({
     }
   ]
     .concat(FlujoRegistrado)
+    .concat(Cms)
 })
 
 export default rutas

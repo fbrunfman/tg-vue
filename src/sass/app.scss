@@ -28,7 +28,7 @@ $brand-selection-color: #f9f6f0;
 $brand-overlay-color: #3b3d40;
 $brand-bg-color: $brand-white;
 $brand-orange: #ff6600;
-$brand-orange-seconday: #ff6600;
+$brand-orange-secondary: #ff6600;
 $brand-yellow:#ffab00;
 $brand-yellow2:#ffc439;
 $brand-orange-dark:#702e02;
@@ -41,3 +41,34 @@ $brand-gold: gold;
 $font-primary: 'Play', sans-serif;
 $font-secondary:  'Rajdhani', sans-serif;
 
+.form-control, .form-control:focus {
+  background: white;
+  border-radius: 0;
+  border: none;
+  color: #000;
+  background-color: $brand-six;
+  color: #fff !important;
+  height: auto;
+  padding: 11.5px 5px;
+  width: 100%;
+  line-height: normal;
+  box-shadow: none;
+}
+
+.btn {
+  border-radius: 0;
+  font-size: 15px;
+}
+
+.btn-warning, .btn-warning {
+  background-color: $brand-orange;
+  border: 1px solid $brand-orange;
+  color: white;
+}
+
+.btn-warning:hover {
+opacity: 0.7;
+background-color: $brand-orange;
+  border: 1px solid $brand-orange;
+  color: white;
+}

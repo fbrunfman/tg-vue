@@ -1,7 +1,6 @@
 <template>
-    <div class="contenedor-home">
-      <div class="d-flex flex-column contain">
-        <Navbar/>
+  <div class="d-flex flex-column contain">
+        
         <div class="home-content">
           <div class="user-info p-3 text-white d-flex align-items-center justify-content-between">
             <div class="user-description mt-3 d-flex align-items-center">
@@ -123,26 +122,13 @@
               CENTRO DE AYUDA
             </div>
           </div>
-        </div>
-        <div class="footer">
-          <Header></Header>
-        </div>
-      </div>
-      <Footer></Footer>
+          </div>
     </div>
 </template>
 
 <script>
-import Header from './../components/header-dashboard/Header-Dashboard.vue'
-import Navbar from './../components/navbar/Navbar.vue'
-import Footer from './../components/footer/Footer.vue'
 export default {
   name:'Home',
-  components: {
-    Header,
-    Footer,
-    Navbar
-  },
   methods: {
 
   }
